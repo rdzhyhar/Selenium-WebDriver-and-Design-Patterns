@@ -10,10 +10,10 @@ public class NavigationBar extends AbsractComponent {
     @FindBy(id = "hdtb")
     private WebElement bar;
 
-    @FindBy(linkText = "Зображення")
+    @FindBy(linkText = "Images")
     private WebElement images;
 
-    @FindBy(linkText = "Новини")
+    @FindBy(linkText = "News")
     private WebElement news;
 
     public NavigationBar(WebDriver driver) {
